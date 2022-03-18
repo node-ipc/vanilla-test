@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-test",
+  "name": "@node-ipc/vanilla-test",
   "version": "1.4.9",
   "description": "minimal test framework for node, browsers, and electron, anywhere javascript can run",
   "main": "index.js",
@@ -8,9 +8,9 @@
     "node": ">=12.21.0"
   },
   "scripts": {
-    "test": "npm run emulate && node ./test/CI.js",
-    "start": "npm run emulate && node-http-server port=8000 verbose=true",
-    "emulate": "npm i && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
+    "test": "yarn emulate && node ./test/CI.js",
+    "start": "yarn emulate && node-http-server port=8000 verbose=true",
+    "emulate": "yarn && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
   },
   "keywords": [
     "test",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RIAEvangelist/vanilla-test.git"
+    "url": "https://github.com/node-ipc/vanilla-test.git"
   },
   "dependencies": {
     "ansi-colors-es6": "5.0.0",

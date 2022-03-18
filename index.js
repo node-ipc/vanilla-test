@@ -1,7 +1,7 @@
 //import with relative paths to shim for browser
 //this way the same code will work here as it does
-import ansi from '../ansi-colors-es6/index.js';
-import Is from '../strong-type/index.js';
+import ansi from '../../ansi-colors-es6/index.js';
+import Is from '../../strong-type/index.js';
 
 class VanillaTest{
     constructor(){

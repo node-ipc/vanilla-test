@@ -6,10 +6,10 @@ npm info :
 ![vanilla-test npm version](https://img.shields.io/npm/v/vanilla-test.svg) ![total npm downloads for vanilla-test](https://img.shields.io/npm/dt/vanilla-test.svg) ![monthly npm downloads for vanilla-test](https://img.shields.io/npm/dm/vanilla-test.svg)
 
 GitHub info :  
-![vanilla-test GitHub Release](https://img.shields.io/github/release/RIAEvangelist/vanilla-test.svg) ![GitHub license vanilla-test license](https://img.shields.io/github/license/RIAEvangelist/vanilla-test.svg) ![open issues for vanilla-test on GitHub](https://img.shields.io/github/issues/RIAEvangelist/vanilla-test.svg)
+![vanilla-test GitHub Release](https://img.shields.io/github/release/node-ipc/vanilla-test.svg) ![GitHub license vanilla-test license](https://img.shields.io/github/license/node-ipc/vanilla-test.svg) ![open issues for vanilla-test on GitHub](https://img.shields.io/github/issues/node-ipc/vanilla-test.svg)
 
 Build Info :  
-Travis CI (linux,windows & Mac) : [![Build Status](https://travis-ci.org/RIAEvangelist/vanilla-test.svg?branch=main)](https://travis-ci.org/RIAEvangelist/vanilla-test) Appveyor CI (Windows) : [![vanilla-test windows build status](https://ci.appveyor.com/api/projects/status/github/riaevangelist/vanilla-test?branch=main&svg=true)](https://ci.appveyor.com/project/RIAEvangelist/vanilla-test/history)
+Travis CI (linux,windows & Mac) : [![Build Status](https://travis-ci.org/node-ipc/vanilla-test.svg?branch=main)](https://travis-ci.org/node-ipc/vanilla-test) Appveyor CI (Windows) : [![vanilla-test windows build status](https://ci.appveyor.com/api/projects/status/github/node-ipc/vanilla-test?branch=main&svg=true)](https://ci.appveyor.com/project/node-ipc/vanilla-test/history)
 
 ***Super light and fast*** Extensible pure JS testing for the win! Vanilla Test works in node, browsers, electron, anywhere JS runs.
 
@@ -76,7 +76,7 @@ first run `npm run emulate`
 
 then run `node ./example/basic.js` to see the example output.
 
-![screen shot of vanilla-test example on node](https://raw.githubusercontent.com/RIAEvangelist/vanilla-test/main/example/img/vanilla-test-node-report.PNG)
+![screen shot of vanilla-test example on node](https://raw.githubusercontent.com/node-ipc/vanilla-test/main/example/img/vanilla-test-node-report.PNG)
 
 
 #### For the browser
@@ -218,24 +218,19 @@ This is needed because we use relative paths in our ES6+ modules to allow the sa
 
 Provided your router and firewall are not blocking your IP/ports, you can also go to `http://[your-ip-here]:8000/` on any device including your mobile device provided it is on the same network.
 
-## Digital Ocean Static App
-
-We use the free Digital Ocean Static Apps to host a version of the local server. It is exactly the same as if you ran npm start on your machine. You can also use this like a CDN as it automatically rebuilds from main/master each time the branch is updated. [vanilla-test CDN home](https://cdn-p939v.ondigitalocean.app/vanilla-test/) : https://cdn-p939v.ondigitalocean.app/vanilla-test/
-
-
 ## Chrome Screenshot
 The address url in the screenshot is outdated, see above for the actual address.
 
 
-![screen shot of vanilla-test example on chrome](https://raw.githubusercontent.com/RIAEvangelist/vanilla-test/main/example/img/vanilla-test-chrome-report.PNG)
+![screen shot of vanilla-test example on chrome](https://raw.githubusercontent.com/node-ipc/vanilla-test/main/example/img/vanilla-test-chrome-report.PNG)
 
 
 ## Edge
 The address url in the screenshot is outdated, see above for the actual address.
 
-![screen shot of vanilla-test example on edge](https://raw.githubusercontent.com/RIAEvangelist/vanilla-test/main/example/img/vanilla-test-edge-report.PNG)
+![screen shot of vanilla-test example on edge](https://raw.githubusercontent.com/node-ipc/vanilla-test/main/example/img/vanilla-test-edge-report.PNG)
 
 ## FireFox
 As of 11/22/2020 FF still does not support private fields or methods in js classes, however, the nightly build has it included behind a flag. With the private field and method flags set to true, FireFox nightly works like a charm... However, firefox's console does not support ansi escape characters, so we will need to make a report builder for it that logs it out better. Thankfully the code is already set up to support that if you run the reports like so : `.report(false)` it will return an object you can use to make a report in node or the browser. It's documented in the methods table above.
 
-![screen shot of vanilla-test example on FireFox Nightly](https://raw.githubusercontent.com/RIAEvangelist/vanilla-test/main/example/img/vanilla-test-FF-nightly-report.PNG)
+![screen shot of vanilla-test example on FireFox Nightly](https://raw.githubusercontent.com/node-ipc/vanilla-test/main/example/img/vanilla-test-FF-nightly-report.PNG)
