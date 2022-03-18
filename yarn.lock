@@ -5,7 +5,7 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"ansi-colors-es6@npm:^5.0.0":
+"ansi-colors-es6@npm:5.0.0":
   version: 5.0.0
   resolution: "ansi-colors-es6@npm:5.0.0"
   checksum: 72fb8aa34b956a58d2154f491ce3dc1bab613117a6d9cd2b83d4cd2a8d4d9f4ede4bd4d0b407be585991f4ad02a1fb315f06954e7fffd66d9be4e35ae4fbcb62
@@ -321,7 +321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strong-type@npm:^1.1.0":
+"strong-type@npm:1.1.0":
   version: 1.1.0
   resolution: "strong-type@npm:1.1.0"
   checksum: 5aa1061e18d813639e359515448989b8006b1ed09d23630212f8a99721dea3f8eb8d896274db7e23123ec8a6b69eadf116a79a6e3cfea0d478ee81f3cbe90bbf
@@ -356,10 +356,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vanilla-test@workspace:."
   dependencies:
-    ansi-colors-es6: ^5.0.0
+    ansi-colors-es6: 5.0.0
     copyfiles: ^2.4.1
     node-http-server: ^8.1.3
-    strong-type: ^1.1.0
+    strong-type: 1.1.0
   languageName: unknown
   linkType: soft
 
