@@ -5,3 +5,4 @@ test
 appveyor.yml
 index.html
 .yarn
+.gitattributes
