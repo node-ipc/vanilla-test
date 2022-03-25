@@ -5,14 +5,21 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@achrinza/strong-type@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@achrinza/strong-type@npm:1.1.1"
+  checksum: 82ee7b2fe2278dab447a07cc48d966505d26d1db69dff5c022ecbea4ac1d40a9c4a477e07c8f2b7692c0a5f5d4d045005f118d9c1539fa9f863408f215730289
+  languageName: node
+  linkType: hard
+
 "@node-ipc/vanilla-test@workspace:.":
   version: 0.0.0-use.local
   resolution: "@node-ipc/vanilla-test@workspace:."
   dependencies:
+    "@achrinza/strong-type": 1.1.1
     ansi-colors-es6: 5.0.0
     copyfiles: ^2.4.1
-    node-http-server: ^8.1.3
-    strong-type: 1.1.0
+    node-http-server: 8.1.3
   languageName: unknown
   linkType: soft
 
@@ -213,12 +220,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-http-server@npm:^8.1.3":
-  version: 8.1.5
-  resolution: "node-http-server@npm:8.1.5"
+"node-http-server@npm:8.1.3":
+  version: 8.1.3
+  resolution: "node-http-server@npm:8.1.3"
   bin:
     node-http-server: bin/nhs.js
-  checksum: 69446a38c1bc2239f3c14b7f43584b5f86e26338b902377cfdd899061df6c6801b734ffb1e2b341c34d5dd6cbb3ee7af104b54da64761efb1aaa84772cc3d2e6
+  checksum: 30e224b5fb1a2144207efcec1b9e0aca821717a6d94891df6222b0e09a556d24028522944e994fdd6f75499fe115b759556664e80aa0b2b941ecce58bf58b84d
   languageName: node
   linkType: hard
 
@@ -329,13 +336,6 @@ __metadata:
   dependencies:
     ansi-regex: ^5.0.1
   checksum: f3cd25890aef3ba6e1a74e20896c21a46f482e93df4a06567cebf2b57edabb15133f1f94e57434e0a958d61186087b1008e89c94875d019910a213181a14fc8c
-  languageName: node
-  linkType: hard
-
-"strong-type@npm:1.1.0":
-  version: 1.1.0
-  resolution: "strong-type@npm:1.1.0"
-  checksum: 5aa1061e18d813639e359515448989b8006b1ed09d23630212f8a99721dea3f8eb8d896274db7e23123ec8a6b69eadf116a79a6e3cfea0d478ee81f3cbe90bbf
   languageName: node
   linkType: hard
 
