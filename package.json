@@ -10,7 +10,7 @@
   "scripts": {
     "test": "yarn emulate && node ./test/CI.js",
     "start": "yarn emulate && node-http-server port=8000 verbose=true",
-    "emulate": "yarn && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
+    "emulate": "copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./example/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./example/\" && copyfiles -V \"./!(node_modules)/*\" \"./**!(node_modules)\"  \"./test/node_modules/@node-ipc/vanilla-test/\" && copyfiles -V \"./node_modules/**/*\" \"./test/\""
   },
   "keywords": [
     "test",
