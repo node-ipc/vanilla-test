@@ -1,6 +1,6 @@
 {
   "name": "@node-ipc/vanilla-test",
-  "version": "1.4.11",
+  "version": "1.4.12",
   "description": "minimal test framework for node, browsers, and electron, anywhere javascript can run",
   "main": "index.js",
   "type": "module",
