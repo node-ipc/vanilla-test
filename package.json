@@ -28,7 +28,7 @@
     "url": "https://github.com/node-ipc/vanilla-test.git"
   },
   "dependencies": {
-    "@achrinza/strong-type": "1.1.5",
+    "@achrinza/strong-type": "1.1.7",
     "ansi-colors-es6": "5.0.0"
   },
   "devDependencies": {
