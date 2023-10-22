@@ -5,10 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@achrinza/strong-type@npm:1.1.5":
-  version: 1.1.5
-  resolution: "@achrinza/strong-type@npm:1.1.5"
-  checksum: ad38fb784016f1fd3ce8b12ecd5286f762813ff6d11873f4ca2d5743494de374392406b318cafe49b9b5f575dd4e316afa33814b4f9b95d377c22a08d9b89634
+"@achrinza/strong-type@npm:1.1.7":
+  version: 1.1.7
+  resolution: "@achrinza/strong-type@npm:1.1.7"
+  checksum: b72ed20d9e832598ebf2f0b98b1669ddd2bbb8a748ec6f5d9c0599008de49aa4a7efb5764f656e7f090900f443d18065b35e337d19fb626aafe5d94a598c9562
   languageName: node
   linkType: hard
 
@@ -16,7 +16,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@node-ipc/vanilla-test@workspace:."
   dependencies:
-    "@achrinza/strong-type": 1.1.5
+    "@achrinza/strong-type": 1.1.7
     ansi-colors-es6: 5.0.0
     copyfiles: ^2.4.1
     node-http-server: 8.1.3
